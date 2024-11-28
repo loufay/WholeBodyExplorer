@@ -1,6 +1,6 @@
 # Whole-Body Organ Explorer
 
-This is a Streamlit-based application to explore organ data from MRI datasets. The app visualizes distributions and correlations of organ shape metrics (volume, diameter, surface area) across various factors such as age and gender.
+This is a Streamlit-based application to explore organ data from MRI datasets. The app visualizes distributions and correlations of organ shape metrics (volume, diameter, surface area) across various factors.
 
 ## Features
 
