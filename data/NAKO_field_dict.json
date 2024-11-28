@@ -1,0 +1,1984 @@
+{
+    "basis_sex": {
+        "field_name_ger": "Geschlecht",
+        "field_name_eng": "gender",
+        "labels_ger": {
+            "1.0": "M\u00c3\u00a4nnlich",
+            "2.0": "Weiblich"
+        },
+        "labels_eng": {
+            "1.0": "Male",
+            "2.0": "Female"
+        }
+    },
+    "basis_age": {
+        "field_name_ger": "Alter am Untersuchungsdatum",
+        "field_name_eng": "Age on date of examination",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "a_ethn1": {
+        "field_name_ger": "Ethnie",
+        "field_name_eng": "Ethnicity",
+        "labels_ger": {
+            "1.0": "Kaukasisch",
+            "2.0": "Afrikanisch",
+            "3.0": "Indischer Subkontinent",
+            "4.0": "S\u00c3\u00bcdost-Asiatisch",
+            "5.0": "Nordost-Asiatisch",
+            "6.0": "Japanisch",
+            "7.0": "S\u00c3\u00bcd- und Mittelamerikanisch",
+            "8.0": "Indianisch",
+            "-9.0": "wei\u00c3\u009f nicht",
+            "-8.0": "keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Caucasian",
+            "2.0": "African",
+            "3.0": "Indian subcontinent",
+            "4.0": "Southeast Asian",
+            "5.0": "Northeast Asian",
+            "6.0": "Japanese",
+            "7.0": "South and Central American",
+            "8.0": "Native American",
+            "-9.0": "do not know (Missing)",
+            "-8.0": "not specified (Missing)"
+        }
+    },
+    "a_ethn2": {
+        "field_name_ger": "weitere Ethnie",
+        "field_name_eng": "other ethnic group",
+        "labels_ger": {
+            "0.0": "keine weitere",
+            "1.0": "Kaukasisch",
+            "2.0": "Afrikanisch",
+            "3.0": "Indischer Subkontinent",
+            "4.0": "S\u00c3\u00bcdost-Asiatisch",
+            "5.0": "Nordost-Asiatisch",
+            "6.0": "Japanisch",
+            "7.0": "S\u00c3\u00bcd- und Mittelamerikanisch",
+            "8.0": "Indianisch",
+            "-9.0": "wei\u00c3\u009f nicht"
+        },
+        "labels_eng": {
+            "0.0": "no further",
+            "1.0": "Caucasian",
+            "2.0": "African",
+            "3.0": "Indian subcontinent",
+            "4.0": "Southeast Asian",
+            "5.0": "Northeast Asian",
+            "6.0": "Japanese",
+            "7.0": "South and Central American",
+            "8.0": "Native American",
+            "-9.0": "do not know (Missing)"
+        }
+    },
+    "a_an_cvmi1_age": {
+        "field_name_ger": "Alter bei Diagnose erster Herzinfarkt",
+        "field_name_eng": "Age at diagnosis of first heart attack",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": " (Missing)",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": " (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_cvang_age": {
+        "field_name_ger": "Alter bei Erstdiagnose Angina pectoris",
+        "field_name_eng": "Age at first diagnosis of angina pectoris",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_cvhf_age": {
+        "field_name_ger": "Alter bei Erstdiagnose Herzschw\u00c3\u00a4che bzw. Herzinsuffizienz",
+        "field_name_eng": "Age at first diagnosis of heart failure or heart failure",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_cvar_age": {
+        "field_name_ger": "Alter bei Erstdiagnose Herzrhythmusst\u00c3\u00b6rungen",
+        "field_name_eng": "Age at first diagnosis of cardiac arrhythmia",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_cvht_age": {
+        "field_name_ger": "Alter bei Erstdiagnose Bluthochdruck",
+        "field_name_eng": "Age at first diagnosis of hypertension",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_metdm1_age": {
+        "field_name_ger": "Alter bei Erstdiagnose Diabetes mellitus",
+        "field_name_eng": "Age at first diagnosis of diabetes mellitus",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_an_metchol1_age": {
+        "field_name_ger": "Alter bei Erstdiagnose erh\u00c3\u00b6hte Blutfette bzw. Cholesterin und/oder Triglyzeride",
+        "field_name_eng": "Age at first diagnosis of elevated blood lipids or cholesterol and/or triglycerides",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "d_an_cv_1": {
+        "field_name_ger": "Herzinfarkt",
+        "field_name_eng": "Heart attack",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_cv_2": {
+        "field_name_ger": "Verengung der Herzkranzgef\u00c3\u00a4\u00c3\u009fe bzw. Angina pectoris",
+        "field_name_eng": "Narrowing of the coronary arteries or angina pectoris",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_cv_3": {
+        "field_name_ger": "Herzschw\u00c3\u00a4che bzw. Herzinsuffizienz",
+        "field_name_eng": "Heart failure or cardiac insufficiency",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_cv_4": {
+        "field_name_ger": "Herzrhythmusst\u00c3\u00b6rungen",
+        "field_name_eng": "Cardiac arrhythmias",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_cv_5": {
+        "field_name_ger": "Schaufensterkrankheit bzw. Durchblutungsst\u00c3\u00b6rungen in den Beinen, auch Claudicatio intermittens oder arterielle Verschlusskrankheit genannt",
+        "field_name_eng": "Intermittent claudication or circulatory disorders in the legs, also known as intermittent claudication or arterial occlusive disease",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_cv_6": {
+        "field_name_ger": "Bluthochdruck",
+        "field_name_eng": "High blood pressure",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_met_1": {
+        "field_name_ger": "Zuckerkrankheit bzw. Diabetes mellitus",
+        "field_name_eng": "Diabetes or diabetes mellitus",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_met_2": {
+        "field_name_ger": "Erh\u00c3\u00b6hte Blutfette bzw. Cholesterin oder Triglyzeride",
+        "field_name_eng": "Elevated blood lipids or cholesterol or triglycerides",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_met_4": {
+        "field_name_ger": "Schilddr\u00c3\u00bcsenerkrankung",
+        "field_name_eng": "Thyroid disease",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_metdm2c_1": {
+        "field_name_ger": "Retinopathie, d.h. Gef\u00c3\u00a4\u00c3\u009fsch\u00c3\u00a4den am Augenhintergrund",
+        "field_name_eng": "Retinopathy, i.e. vascular damage to the back of the eye",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_metdm2c_4": {
+        "field_name_ger": "Nierenversagen oder Einschr\u00c3\u00a4nkung der Nierenfunktion",
+        "field_name_eng": "Renal failure or impairment of kidney function",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_inf_4": {
+        "field_name_ger": "Hepatitis B",
+        "field_name_eng": "Hepatitis B",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_inf_5": {
+        "field_name_ger": "Hepatitis C",
+        "field_name_eng": "Hepatitis C",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_lung_1": {
+        "field_name_ger": "Chronische Bronchitis oder COPD",
+        "field_name_eng": "Chronic bronchitis or COPD",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_lung_2": {
+        "field_name_ger": "Asthma bronchiale",
+        "field_name_eng": "Bronchial asthma",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_lungcopd1_j": {
+        "field_name_ger": "Jahr",
+        "field_name_eng": "Year",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_lungcopd1_a": {
+        "field_name_ger": "Alter",
+        "field_name_eng": "Age",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_lungasth1_j": {
+        "field_name_ger": "Jahr",
+        "field_name_eng": "year",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_lungasth1_a": {
+        "field_name_ger": "Alter",
+        "field_name_eng": "age",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_ge_4": {
+        "field_name_ger": "Gallensteine",
+        "field_name_eng": "Gallstones",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_ge_5": {
+        "field_name_ger": "Leberzirrhose",
+        "field_name_eng": "Liver cirrhosis",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_gezir1_j": {
+        "field_name_ger": "Jahr",
+        "field_name_eng": "Year",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_gezir1_a": {
+        "field_name_ger": "Alter",
+        "field_name_eng": "Age",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_ms_1": {
+        "field_name_ger": "R\u00c3\u00bcckenschmerzen \u00c3\u00bcber 3 Monate oder l\u00c3\u00a4nger, und zwar fast t\u00c3\u00a4glich",
+        "field_name_eng": "Back pain for more than 3 months or longer, almost daily",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_ms_2": {
+        "field_name_ger": "Osteoporose",
+        "field_name_eng": "Osteoporosis",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_ms_3": {
+        "field_name_ger": "Arthrose bzw. Gelenkverschlei\u00c3\u009f",
+        "field_name_eng": "Osteoarthritis or joint wear and tear",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "No information (Missing)"
+        }
+    },
+    "a_apo_yearsfirst": {
+        "field_name_ger": "Zeit seit dem ersten Schlaganfall",
+        "field_name_eng": "Time since first stroke",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "d_an_neph": {
+        "field_name_ger": "Wurde bei Ihnen jemals von einem Arzt eine  Einschr\u00c3\u00a4nkung der Nierenfunktion bzw. chronische Niereninsuffizienz   diagnostiziert?",
+        "field_name_eng": "Have you ever been diagnosed by a doctor with impaired kidney function or chronic renal insufficiency?",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "d_an_neph1_j": {
+        "field_name_ger": "Jahr",
+        "field_name_eng": "Year",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "d_an_neph1_a": {
+        "field_name_ger": "Alter",
+        "field_name_eng": "Age",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "a_ses_isced97_years": {
+        "field_name_ger": "Theoretische Bildungsjahre (kumulativ)",
+        "field_name_eng": "Theoretical years of education (cumulative)",
+        "labels_ger": {
+            "-99.0": "Studienteilnehmer, die sich noch in beruflicher Ausbildung befinden",
+            "-88.0": "Studienteilnehmer, die derzeit noch Sch\u00c3\u00bcler/-innen einer allgemeinbildenden Vollzeitschule sind und keinen beruflichen Bildungsabschluss haben",
+            "-9.0": "fehlender Wert/NA"
+        },
+        "labels_eng": {
+            "-99.0": "Study participants who are still in vocational training (Missing)",
+            "-88.0": "Study participants who are currently still students at a full-time general school and do not have a vocational qualification (Missing)",
+            "-9.0": "missing value/NA (Missing)"
+        }
+    },
+    "a_ses_isced97_level": {
+        "field_name_ger": "H\u00c3\u00b6chster Bildungsabschluss",
+        "field_name_eng": "Highest educational qualification",
+        "labels_ger": {
+            "0.0": "Vorschule",
+            "1.0": "Grundschule",
+            "2.0": "Hauptschule, Realschule",
+            "3.0": "Hauptschule, Realschule und Beruflich-betriebliche Ausbildung (Lehre) abgeschlossen/ Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule) abgeschlossen/ Ausbildung an einer Fachschule, Meister-, Technikerschule, Berufs- oder Fachakademie",
+            "4.0": "Fachhochschulreife/Abitur/EOS und beruflicher Abschluss",
+            "5.0": "Hochschulabschluss/Fachhochschulabschluss",
+            "6.0": "Promotion",
+            "-99.0": "Studienteilnehmer, die sich noch in beruflicher Ausbildung befinden",
+            "-88.0": "Studienteilnehmer, die derzeit noch Sch\u00c3\u00bcler/-innen einer allgemeinbildenden Vollzeitschule sind und keinen beruflichen Bildungsabschluss haben",
+            "-9.0": "fehlender Wert/ NA"
+        },
+        "labels_eng": {
+            "0.0": "pre-school",
+            "1.0": "primary school",
+            "2.0": "Hauptschule, Realschule",
+            "3.0": "Hauptschule, Realschule and vocational/company training (apprenticeship) completed/ Vocational/school training (vocational school, commercial school) completed/ Training at a technical school, master craftsman school, technical school, vocational or technical academy",
+            "4.0": "Fachhochschulreife/Abitur/EOS and vocational qualification",
+            "5.0": "University degree/university of applied sciences degree",
+            "6.0": "Doctorate",
+            "-99.0": "Study participants who are still in vocational training (Missing)",
+            "-88.0": "Study participants who are currently still students at a general full-time school and do not have a vocational qualification (Missing)",
+            "-9.0": "missing value/ NA (Missing)"
+        }
+    },
+    "d_an_ca": {
+        "field_name_ger": "Wurde bei Ihnen jemals von einem Arzt eine  Krebserkrankung  diagnostiziert?",
+        "field_name_eng": "Have you ever been diagnosed with cancer by a doctor?",
+        "labels_ger": {
+            "1.0": "Ja",
+            "2.0": "Nein",
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe"
+        },
+        "labels_eng": {
+            "1.0": "Yes",
+            "2.0": "No",
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)"
+        }
+    },
+    "a_alk_konsum": {
+        "field_name_ger": "konsumiert Alkohol",
+        "field_name_eng": "consumes alcohol",
+        "labels_ger": {
+            "-99.0": "nicht ermittelbar (erlaubt \u00c3\u00bcbersprungen oder fehlende oder unplausible Werte)",
+            "0.0": "kein Alkoholkonsum",
+            "1.0": "",
+            "2.0": "aktueller Alkoholkonsum"
+        },
+        "labels_eng": {
+            "-99.0": "not ascertainable (allowed skipped or missing or implausible values) (Missing)",
+            "0.0": "No alcohol",
+            "1.0": "previous alcohol consumption",
+            "2.0": "current alcohol consumption"
+        }
+    },
+    "a_alk_rein": {
+        "field_name_ger": "Verzehrsmenge Reinalkohol",
+        "field_name_eng": "Amount of pure alcohol consumed",
+        "labels_ger": {
+            "-99.0": "nicht ermittelbar (erlaubt \u00c3\u00bcbersprungen oder fehlende oder unplausible Werte)"
+        },
+        "labels_eng": {
+            "-99.0": "not ascertainable (allowed skipped or missing or implausible values) (Missing)"
+        }
+    },
+    "a_smok_stat_qn": {
+        "field_name_ger": "Rauchstatus",
+        "field_name_eng": "Smoking status",
+        "labels_ger": {
+            "1.0": "Kein Raucher, auch nicht ehemalig",
+            "2.0": "Ehemaliger Raucher",
+            "3.0": "Raucher",
+            "4.0": "Rauchstatus unbekannt"
+        },
+        "labels_eng": {
+            "1.0": "Not a smoker, not even a former smoker",
+            "2.0": "Former smoker",
+            "3.0": "Smoker",
+            "4.0": "Smoking status unknown"
+        }
+    },
+    "a_packyears": {
+        "field_name_ger": "Verpackungsjahre",
+        "field_name_eng": "Packing years",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "a_smok_dur": {
+        "field_name_ger": "Rauchjahre",
+        "field_name_eng": "Smoking years",
+        "labels_ger": {
+            "7777.0": "Berechnung nicht m\u00c3\u00b6glich wegen fehlender Daten",
+            "8886.0": "Unplausible Angabe, daher im Rahmen der QS gel\u00c3\u00b6scht",
+            "7776.0": "Berechnung nicht m\u00c3\u00b6glich wegen unplausibler Werte",
+            "7775.0": "Erlaubt \u00c3\u00bcbersprungen",
+            "8888.0": "Keine Angabe",
+            "9999.0": "Wei\u00c3\u009f Nicht"
+        },
+        "labels_eng": {
+            "7777.0": "Calculation not possible due to missing data (Missing)",
+            "8886.0": "Implausible information, therefore deleted as part of the QA (Missing)",
+            "7776.0": "Calculation not possible due to implausible values (Missing)",
+            "7775.0": "Allowed skipped (Missing)",
+            "8888.0": "No specification (Missing)",
+            "9999.0": "t know (Missing)"
+        }
+    },
+    "akz_bouts_mod": {
+        "field_name_ger": "m\u00c3\u00a4\u00c3\u009fige k\u00c3\u00b6rperliche Anstrengung (in Bl\u00c3\u00b6cken ab 10 min Dauer)",
+        "field_name_eng": "Moderate physical exertion (in blocks lasting 10 min or more)",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "akz_vigorous": {
+        "field_name_ger": "starke k\u00c3\u00b6rperliche Anstrengung (in Bl\u00c3\u00b6cken ab 10 min Dauer)",
+        "field_name_eng": "Heavy physical exertion (in blocks lasting 10 min or more)",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "akz_kcals_dayavg": {
+        "field_name_ger": "Durchschnittlicher Energieverbrauch pro Tag",
+        "field_name_eng": "Average energy consumption per day",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "akz_steps": {
+        "field_name_ger": "Anzahl der Schritte",
+        "field_name_eng": "Number of steps",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "a_rr_sys": {
+        "field_name_ger": "systolischer Blutdruck",
+        "field_name_eng": "systolic blood pressure",
+        "labels_ger": {
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe",
+            "7777.0": "unplausible Angabe"
+        },
+        "labels_eng": {
+            "9999.0": "t know (Missing)",
+            "8888.0": "No information (Missing)",
+            "7777.0": "implausible information (Missing)"
+        }
+    },
+    "a_rr_dia": {
+        "field_name_ger": "diastolischer Blutdruck",
+        "field_name_eng": "diastolic blood pressure",
+        "labels_ger": {
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe",
+            "7777.0": "unplausible Angabe"
+        },
+        "labels_eng": {
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)",
+            "7777.0": "implausible information (Missing)"
+        }
+    },
+    "a_rr_puls_man": {
+        "field_name_ger": "Pulsfrequenz (manuell gemessen)",
+        "field_name_eng": "Pulse rate (measured manually)",
+        "labels_ger": {
+            "9999.0": "Wei\u00c3\u009f nicht",
+            "8888.0": "Keine Angabe",
+            "7777.0": "unplausible Angabe"
+        },
+        "labels_eng": {
+            "9999.0": "t know (Missing)",
+            "8888.0": "Not specified (Missing)",
+            "7777.0": "implausible information (Missing)"
+        }
+    },
+    "a_hgp_lmax": {
+        "field_name_ger": "Maximale Greifkraft links",
+        "field_name_eng": "Maximum grip force left",
+        "labels_ger": {
+            "888.0": "keine Messung, au\u00c3\u009ferhalb des Messbereichs oder unplausibler Wert"
+        },
+        "labels_eng": {
+            "888.0": "No measurement, out of range or implausible value (Missing)"
+        }
+    },
+    "a_hgp_rmax": {
+        "field_name_ger": "Maximale Greifkraft rechts",
+        "field_name_eng": "Maximum grip force right",
+        "labels_ger": {
+            "888.0": "keine Messung, au\u00c3\u009ferhalb des Messbereichs oder unplausibler Wert"
+        },
+        "labels_eng": {
+            "888.0": "No measurement, out of range or implausible value (Missing)"
+        }
+    },
+    "a_hgp_max": {
+        "field_name_ger": "Maximale Greifkraft",
+        "field_name_eng": "Maximum grip force",
+        "labels_ger": {
+            "888.0": "keine Messung, au\u00c3\u009ferhalb des Messbereichs oder unplausibler Wert"
+        },
+        "labels_eng": {
+            "888.0": "No measurement, outside the measuring range or implausible value (Missing)"
+        }
+    },
+    "spiro_mw_fvc": {
+        "field_name_ger": "forcierte exspiratorische Vitalkapazit\u00c3\u00a4t (FVC)",
+        "field_name_eng": "Forced expiratory vital capacity (FVC)",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "spiro_mw_fvc_p": {
+        "field_name_ger": "FVC - Sollwert",
+        "field_name_eng": "FVC - target value",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "spiro_mw_fev1": {
+        "field_name_ger": "forciertes exspiratorisches Volumen in einer Sekunde (FEV1)",
+        "field_name_eng": "Forced expiratory volume in one second (FEV1)",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "spiro_mw_fev1_p": {
+        "field_name_ger": "FEV1 - Sollwert",
+        "field_name_eng": "FEV1 - target value",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "vae_ex_r_abi": {
+        "field_name_ger": "Rechter ABI-Wert",
+        "field_name_eng": "Right ABI value",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "vae_ex_l_abi": {
+        "field_name_ger": "Linker ABI-Wert",
+        "field_name_eng": "Left ABI value",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "sa_alat": {
+        "field_name_ger": "alat: Messwert",
+        "field_name_eng": "alat: measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_alb": {
+        "field_name_ger": "alb: Messwert",
+        "field_name_eng": "alb: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ap": {
+        "field_name_ger": "ap: Messwert",
+        "field_name_eng": "ap: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_asat": {
+        "field_name_ger": "asat: Messwert",
+        "field_name_eng": "asat: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ca": {
+        "field_name_ger": "ca: Messwert",
+        "field_name_eng": "ca: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_cea": {
+        "field_name_ger": "cea: Messwert",
+        "field_name_eng": "cea: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_che": {
+        "field_name_ger": "che: Messwert",
+        "field_name_eng": "che: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_chol": {
+        "field_name_ger": "chol: Messwert",
+        "field_name_eng": "chol: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_cl": {
+        "field_name_ger": "cl: Messwert",
+        "field_name_eng": "cl: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_crea": {
+        "field_name_ger": "crea: Messwert",
+        "field_name_eng": "crea: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": " (Missing)",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_cysc": {
+        "field_name_ger": "cysc: Messwert",
+        "field_name_eng": "cysc: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ft3": {
+        "field_name_ger": "ft3: Messwert",
+        "field_name_eng": "ft3: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ft4": {
+        "field_name_ger": "ft4: Messwert",
+        "field_name_eng": "ft4: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ggt": {
+        "field_name_ger": "ggt: Messwert",
+        "field_name_eng": "ggt: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_gluk": {
+        "field_name_ger": "gluk: Messwert",
+        "field_name_eng": "gluk: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_hb": {
+        "field_name_ger": "hb: Messwert",
+        "field_name_eng": "hb: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_hba1c": {
+        "field_name_ger": "hba1c: Messwert",
+        "field_name_eng": "hba1c: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_hdlc": {
+        "field_name_ger": "hdlc: Messwert",
+        "field_name_eng": "hdlc: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_hscrp": {
+        "field_name_ger": "hscrp: Messwert",
+        "field_name_eng": "hscrp: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ldh": {
+        "field_name_ger": "ldh: Messwert",
+        "field_name_eng": "ldh: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ldlc": {
+        "field_name_ger": "ldlc: Messwert",
+        "field_name_eng": "ldlc: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_lipa": {
+        "field_name_ger": "lipa: Messwert",
+        "field_name_eng": "lipa: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_mg": {
+        "field_name_ger": "mg: Messwert",
+        "field_name_eng": "mg: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_na": {
+        "field_name_ger": "na: Messwert",
+        "field_name_eng": "na: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ogtt0": {
+        "field_name_ger": "ogtt0: Messwert",
+        "field_name_eng": "ogtt0: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_ogtt2": {
+        "field_name_ger": "ogtt2: Messwert",
+        "field_name_eng": "ogtt2: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_plt": {
+        "field_name_ger": "plt: Messwert",
+        "field_name_eng": "plt: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_pot": {
+        "field_name_ger": "pot: Messwert",
+        "field_name_eng": "pot: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_prot": {
+        "field_name_ger": "prot: Messwert",
+        "field_name_eng": "prot: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_psa": {
+        "field_name_ger": "psa: Messwert",
+        "field_name_eng": "psa: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_rbc": {
+        "field_name_ger": "rbc: Messwert",
+        "field_name_eng": "rbc: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_trig": {
+        "field_name_ger": "trig: Messwert",
+        "field_name_eng": "trig: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_tsh": {
+        "field_name_ger": "tsh: Messwert",
+        "field_name_eng": "tsh: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_urate": {
+        "field_name_ger": "urate: Messwert",
+        "field_name_eng": "urate: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Sample too old (Missing)",
+            "222222.0": "Haemolytic sample (Missing)",
+            "333333.0": "Lipaemic sample (Missing)",
+            "444444.0": "Technically not possible (Missing)",
+            "555555.0": "Not determined according to plan (Missing)",
+            "666666.0": "Eliminated by expert group (Missing)",
+            "999999.0": "Missing value, no valid information available (Missing)"
+        }
+    },
+    "sa_urea": {
+        "field_name_ger": "urea: Messwert",
+        "field_name_eng": "urea: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exact measured value",
+            "900001.0": "Measured value below the specified limit of quantification",
+            "900002.0": "Measured value above the specified limit of quantification",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        }
+    },
+    "sa_wbc": {
+        "field_name_ger": "wbc: Messwert",
+        "field_name_eng": "wbc: Measured value",
+        "labels_ger": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        },
+        "labels_eng": {
+            "900000.0": "Exakter Messwert",
+            "900001.0": "Messwert unterhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "900002.0": "Messwert oberhalb der angef\u00c3\u00bchrten Bestimmungsgrenze",
+            "111111.0": "Probe zu alt",
+            "222222.0": "H\u00c3\u00a4molytische Probe",
+            "333333.0": "Lip\u00c3\u00a4mische Probe",
+            "444444.0": "Technisch nicht m\u00c3\u00b6glich",
+            "555555.0": "Planm\u00c3\u00a4\u00c3\u009fig nicht bestimmt",
+            "666666.0": "Durch Expertengruppe eliminiert",
+            "999999.0": "Fehlender Wert, keine g\u00c3\u00bcltigen Angaben vorhanden"
+        }
+    },
+    "deceased": {
+        "field_name_ger": "Verstorben",
+        "field_name_eng": "Deceased",
+        "labels_ger": {
+            "0.0": "nein",
+            "1.0": "ja"
+        },
+        "labels_eng": {
+            "0.0": "nein",
+            "1.0": "ja"
+        }
+    },
+    "age_at_death": {
+        "field_name_ger": "Alter zum Zeitpunkt des Todes",
+        "field_name_eng": "Age at the time of death",
+        "labels_ger": {},
+        "labels_eng": {}
+    },
+    "basis_uort": {
+        "field_name_ger": "Untersuchungsort",
+        "field_name_eng": "Place of examination",
+        "labels_ger": {
+            "11.0": "Augsburg",
+            "12.0": "Regensburg",
+            "21.0": "Mannheim",
+            "22.0": "Freiburg",
+            "23.0": "Saarbr\u00c3\u00bccken",
+            "31.0": "Essen",
+            "32.0": "M\u00c3\u00bcnster",
+            "33.0": "D\u00c3\u00bcsseldorf",
+            "41.0": "Halle",
+            "42.0": "Leipzig",
+            "51.0": "Berlin Nord",
+            "52.0": "Berlin Mitte",
+            "53.0": "Berlin S\u00c3\u00bcd",
+            "61.0": "Hannover",
+            "62.0": "Hamburg",
+            "63.0": "Bremen",
+            "71.0": "Kiel",
+            "81.0": "Neubrandenburg",
+            "811.0": "Neustrelitz",
+            "812.0": "Waren (M\u00c3\u00bcritz)",
+            "813.0": "Demmin",
+            "0.0": "nicht zugeordnet",
+            "531.0": "Nuthetal"
+        },
+        "labels_eng": {
+            "11.0": "Augsburg",
+            "12.0": "Regensburg",
+            "21.0": "Mannheim",
+            "22.0": "Freiburg",
+            "23.0": "Saarbr\u00c3\u00bccken",
+            "31.0": "Essen",
+            "32.0": "M\u00c3\u00bcnster",
+            "33.0": "D\u00c3\u00bcsseldorf",
+            "41.0": "Halle",
+            "42.0": "Leipzig",
+            "51.0": "Berlin Nord",
+            "52.0": "Berlin Mitte",
+            "53.0": "Berlin S\u00c3\u00bcd",
+            "61.0": "Hannover",
+            "62.0": "Hamburg",
+            "63.0": "Bremen",
+            "71.0": "Kiel",
+            "81.0": "Neubrandenburg",
+            "811.0": "Neustrelitz",
+            "812.0": "Waren (M\u00c3\u00bcritz)",
+            "813.0": "Demmin",
+            "0.0": "(Missing)",
+            "531.0": "Nuthetal"
+        }
+    },
+    "tgr_nako_df100k": {
+        "field_name_ger": "DF100k-Teilnehmer",
+        "field_name_eng": "DF100k participants",
+        "labels_ger": {
+            "1.0": "Teilnehmer geh\u00c3\u00b6rt der Gruppe an",
+            "2.0": "Teilnehmer geh\u00c3\u00b6rt der Gruppe nicht an"
+        },
+        "labels_eng": {
+            "1.0": "",
+            "2.0": ""
+        }
+    }
+}
